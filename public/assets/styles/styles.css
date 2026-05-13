@@ -58,6 +58,14 @@ body {
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 5rem; /* Aumentado para mayor visibilidad */
+    margin-right: 8px; /* Reducido para juntar más el logo y el texto */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
 }
 
 .nav-list {
