@@ -229,7 +229,9 @@ body {
     display: flex;
     justify-content: center;
     margin: 40px auto 0;
-    max-width: 920px;
+    max-width: 1100px; 
+    /* Añadimos un espacio de 20px entre los videos */
+    gap: 20px;
 }
 
 .video-wrapper {
@@ -318,8 +320,12 @@ body {
     max-width: 500px;
 }
 
+.app-image {
+    text-align: center;
+}
+
 .app-image img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
 }
